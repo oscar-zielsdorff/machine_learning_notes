@@ -1,0 +1,101 @@
+ID,Name,Age,City,Salary
+1,David,47,Miami,52061
+2,Frank,49,Los Angeles,87566
+3,Frank,57,Miami,60244
+4,Grace,52,Miami,49887
+5,David,21,Los Angeles,52803
+6,Alice,34,Miami,31968
+7,Frank,27,Houston,50984
+8,David,19,Los Angeles,75312
+9,Bob,32,Houston,30885
+10,Alice,52,Miami,53576
+11,David,42,Los Angeles,31979
+12,Charlie,45,Houston,94557
+13,David,36,Los Angeles,88715
+14,Hannah,51,New York,48190
+15,Grace,38,New York,93484
+16,Hannah,49,Chicago,35745
+17,Charlie,29,Houston,35747
+18,Grace,57,Miami,54460
+19,Alice,28,Chicago,78535
+20,Alice,52,Miami,65581
+21,Emma,42,New York,65543
+22,Charlie,43,New York,61816
+23,Hannah,52,Houston,84685
+24,Charlie,42,Houston,64678
+25,Alice,38,Houston,57851
+26,Frank,59,Chicago,43135
+27,Hannah,55,Houston,36127
+28,Frank,22,Houston,64690
+29,Charlie,51,Miami,90067
+30,Bob,50,Chicago,70623
+31,Alice,34,New York,32592
+32,Hannah,28,Chicago,36681
+33,Grace,40,New York,82031
+34,Hannah,47,New York,33295
+35,Hannah,52,Los Angeles,65283
+36,Emma,48,Houston,42168
+37,Hannah,45,Chicago,30878
+38,Grace,21,Miami,51382
+39,Emma,23,New York,96201
+40,Emma,21,Los Angeles,95149
+41,Charlie,33,Houston,79222
+42,Grace,53,Houston,84420
+43,Emma,50,Chicago,60160
+44,Emma,32,Houston,96901
+45,Emma,21,New York,42325
+46,Charlie,59,Miami,44981
+47,Grace,39,Chicago,54120
+48,Charlie,19,Los Angeles,84715
+49,Charlie,31,Chicago,82114
+50,Emma,27,Miami,42872
+51,Charlie,50,Miami,84854
+52,David,49,New York,42920
+53,David,51,Chicago,62994
+54,Frank,58,Miami,74632
+55,Hannah,44,Houston,37342
+56,Grace,34,Chicago,54844
+57,Bob,22,New York,71332
+58,David,51,Los Angeles,32824
+59,Charlie,33,Los Angeles,55411
+60,Bob,30,Houston,56130
+61,Frank,28,Los Angeles,94438
+62,Emma,52,Houston,72058
+63,Grace,19,Houston,73053
+64,Hannah,47,Houston,97780
+65,Frank,44,Miami,75131
+66,Frank,30,Houston,55762
+67,Emma,47,Chicago,63681
+68,Hannah,31,Los Angeles,45323
+69,David,45,Miami,93255
+70,Alice,37,New York,78437
+71,David,48,Los Angeles,99249
+72,Emma,42,Los Angeles,91481
+73,Grace,53,Chicago,52396
+74,Hannah,51,Miami,91049
+75,Frank,28,New York,65130
+76,David,29,New York,61398
+77,Grace,45,Houston,87516
+78,Bob,40,Houston,71188
+79,Emma,18,Houston,91131
+80,Frank,21,Los Angeles,64207
+81,Alice,59,New York,60618
+82,Alice,53,Chicago,78178
+83,Grace,27,Miami,96222
+84,Hannah,25,New York,39996
+85,Frank,18,Houston,65153
+86,Charlie,49,Houston,51225
+87,Frank,39,Houston,72529
+88,Emma,33,Miami,55044
+89,Charlie,26,New York,84758
+90,Alice,37,New York,53871
+91,Hannah,58,Los Angeles,75292
+92,Grace,51,Los Angeles,47860
+93,David,30,Chicago,64957
+94,Grace,30,Los Angeles,70803
+95,Bob,55,New York,64541
+96,Grace,22,Houston,53946
+97,David,31,New York,65622
+98,Bob,48,Houston,33599
+99,Frank,35,Los Angeles,72336
+100,Bob,26,Chicago,90463
