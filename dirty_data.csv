@@ -1,0 +1,51 @@
+ID,Name,Age,Salary,Joining Date,Department
+1,Grace,35,,2020/04/25,
+2,David,25,"60,000",2022-01-15,
+3,Hannah,29,70000,2021-02-15,Finance
+4,Eve,29,55000,11-12-2018,
+5,Grace,,"60,000",2023-12-01,Finance
+6,Charlie,35,50K,2019-07-30,IT
+7,Grace,29,"60,000",2023-12-01,Finance
+8,Hannah,25,,2022-11-05,Finance
+9,Eve,,"60,000","March 10, 2020",Finance
+10,David,25,50K,2022-01-15,
+11,Hannah,,,2022-01-15,
+12,Hannah,35,48000,11-12-2018,Finance
+13,Charlie,1000,NaN,"March 10, 2020",
+14,Frank,27,NaN,,HR
+15,Eve,Thirty,65K,15-02-2021,HR
+16,Bob,1000,48000,2021-02-15,
+17,Hannah,40,48000,2022-01-15,
+18,Frank,25,"60,000",2020/04/25,Finance
+19,Bob,40,NaN,2022-01-15,IT
+20,Eve,1000,50K,2023-12-01,
+21,Alice,,45000,2022-01-15,HR
+22,Frank,Thirty,45000,2022-01-15,Finance
+23,,Thirty,,15-02-2021,
+24,Alice,22,NaN,15-02-2021,HR
+25,Charlie,Thirty,NaN,2019-07-30,HR
+26,Grace,27,45000,,IT
+27,David,Thirty,NaN,2020/04/25,Finance
+28,,1000,"60,000",2022-01-15,Finance
+29,Charlie,22,55000,2022-01-15,IT
+30,Eve,1000,60000,2021-02-15,IT
+31,Charlie,1000,48000,15-02-2021,Finance
+32,Grace,30,65K,2020/04/25,Finance
+33,Eve,22,,11-12-2018,
+34,,1000,55000,2019-07-30,
+35,Grace,30,45000,,IT
+36,Bob,30,48000,"March 10, 2020",
+37,David,22,NaN,,HR
+38,,40,65K,2023-12-01,
+39,Bob,,NaN,2022-01-15,
+40,,27,50K,2019-07-30,HR
+41,Eve,,50K,2023-12-01,IT
+42,Bob,Thirty,65K,2020/04/25,HR
+43,David,27,65K,"March 10, 2020",
+44,Grace,Thirty,45000,15-02-2021,IT
+45,Hannah,1000,65K,2019-07-30,
+46,Charlie,25,"60,000",2019-07-30,HR
+47,Alice,22,NaN,2022-01-15,HR
+48,David,27,55000,2022-11-05,
+49,Bob,27,70000,2019-07-30,Finance
+50,Hannah,1000,65K,2021-02-15,Finance
