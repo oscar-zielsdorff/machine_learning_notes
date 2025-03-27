@@ -30,7 +30,7 @@ series = pd.Series(
 )
 
 ## Reading Data Files ###############################################
-salaries = pd.read_csv('sample_pandas_data.csv')
+salaries = pd.read_csv('csv_files/sample_pandas_data.csv')
 print(salaries.head())
 
 # Shape tells how large a dataframe is (rows, cols)
@@ -38,7 +38,7 @@ print(salaries.shape)
 print()
 
 # If the csv file contains an index it can be specified
-pd.read_csv('sample_pandas_data.csv', index_col=0)
+pd.read_csv('csv_files/sample_pandas_data.csv', index_col=0)
 
 ## Saving Data Files ################################################
 # df.to_csv('my_data_file.csv')
@@ -110,7 +110,7 @@ salaries.loc[salaries.Salary.isnull()]
 salaries.loc[salaries.Salary.notnull()]
 
 ## Assigning Data ###################################################
-sals = pd.read_csv('sample_pandas_data.csv')
+sals = pd.read_csv('csv_files/sample_pandas_data.csv')
 
 # assign constant value
 sals['Name'] = 'Oscar' # all Name entries set to 'Oscar'
