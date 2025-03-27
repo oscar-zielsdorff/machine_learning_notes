@@ -66,7 +66,9 @@ plt.savefig('plots/scaled.png') # The scaled data retains its shape
 # fall above and below the mean. The mean and median are equal.
 # Also called a bell curve.
 
-# normalize data from prev section using boxcox
+# normalize data from prev section using boxcox.
+# (Note: this produces a tuple when input is multidimensional where
+#    result[0] is the transformed data and result[1] is lambda value)
 normalized_data = stats.boxcox(data)
 
 # plot both together
@@ -76,3 +78,5 @@ ax[0].set_title('Original Data')
 sns.histplot(normalized_data, ax=ax[1], kde=True, legend=False)
 ax[1].set_title('Normalized Data')
 plt.savefig('plots/normalized.png') # The shape of the data changed
+
+## Parsing Dates ####################################################
