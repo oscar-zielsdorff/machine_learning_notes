@@ -3,7 +3,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from scipy import stats # for Box-Cox tranformation
-from mlxtend.preprocessing import minmax_scaling # minmax scaling
+from mlxtend.preprocessing import minmax_scaling
+import datetime
 
 # set seed for reproducibility
 np.random.seed(0)
@@ -80,3 +81,30 @@ ax[1].set_title('Normalized Data')
 plt.savefig('plots/normalized.png') # The shape of the data changed
 
 ## Parsing Dates ####################################################
+df['Joining Date'].dtype # dtype('O') due to strings
+df['Joining Date'].head() # dtype: object (same as above)
+
+# These can be converted to dates using "strftime directive".
+# This allows specifying a date format using different identifiers.
+# Commonly %d for day, %m for month, %y (2-digit) %Y (4-digit) year.
+# https://strftime.org/
+
+# A single string has a dtype of Timestamp (enhanced vers. of datetime)
+pd.to_datetime(df['Joining Date'].iloc[0], format='%Y/%m/%d')
+
+# A list returns a dtype of datetime64
+pd.to_datetime(df['Joining Date'].iloc[4:7], format='%Y-%m-%d')
+
+# Can be applied to a whole column of the dataframe. In this case,
+# the formats are mixed. Using format='mixed' can resolve this but
+# is potentially risky. The output also has a dtype of datetime64.
+# Doing this is also much slower than specifying the exact format.
+parsed_dates = pd.to_datetime(df['Joining Date'], format='mixed')
+
+# Again, selecting a single value returns a timestamp data type
+t_stamp = parsed_dates.iloc[0]
+
+# Selecting parts of a datetime (use dir to see other options):
+parsed_dates.dt.day # return days as float64
+parsed_dates.dt.day_of_week
+t_stamp.day # different for timestamp obj, returns int
